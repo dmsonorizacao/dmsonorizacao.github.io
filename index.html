@@ -1,6 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="contato.aspx.cs" Inherits="DMSonorizacao2.contato" %>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!--
  * A Design by GraphBerry
  * Author: GraphBerry
@@ -413,56 +411,55 @@
                     <div class="row-fluid">
                         <div class="span5 center contact-form">
                             <h3>Envie-nos uma mensagem através de nosso formulário de contato.</h3>
-                            <form id="Form1" runat="server" method="post">
+                            <form id="Form1" method="post">
                                 <div class="control-group">
                                     <div class="controls">
-                                        <asp:TextBox ID="txtNome" runat="server" Width="280px" CssClass="span12" placeholder="Nome" />
+                                        <!-- <asp:TextBox ID="txtNome" runat="server" Width="280px" CssClass="span12" placeholder="Nome" />
 										<br/>
                                         <asp:RequiredFieldValidator ID="rfvNome" runat="server" ErrorMessage=" * preenchimento obrigatório"
                                                                     ControlToValidate="txtNome" Display="Dynamic" ForeColor="Red">
-                                        </asp:RequiredFieldValidator>
+                                        </asp:RequiredFieldValidator> -->
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <div class="controls">
-                                        <asp:TextBox ID="txtEmail" runat="server" Width="280px" CssClass="span12" placeholder="Email" />
+                                        <!-- <asp:TextBox ID="txtEmail" runat="server" Width="280px" CssClass="span12" placeholder="Email" />
 										<br/>
                                         <asp:RequiredFieldValidator ID="rfvEmail" runat="server" ErrorMessage=" * preenchimento obrigatório"
                                                                     ControlToValidate="txtEmail" Display="Dynamic" ForeColor="Red">
                                         </asp:RequiredFieldValidator>
                                         <asp:RegularExpressionValidator ID="revEmail" runat="server" ErrorMessage=" * digite um e-mail válido"
                                                                         ControlToValidate="txtEmail" Display="Dynamic" ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*">
-                                        </asp:RegularExpressionValidator>
+                                        </asp:RegularExpressionValidator> -->
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <div class="controls">
-                                        <asp:TextBox ID="txtAssunto" runat="server" Width="280px" CssClass="span12" placeholder="Assunto" />
+                                        <!-- <asp:TextBox ID="txtAssunto" runat="server" Width="280px" CssClass="span12" placeholder="Assunto" />
 										<br/>
                                         <asp:RequiredFieldValidator ID="rfvAssunto" runat="server" ErrorMessage=" * preenchimento obrigatório"
                                                                     ControlToValidate="txtAssunto" Display="Dynamic" ForeColor="Red">
-                                        </asp:RequiredFieldValidator>
+                                        </asp:RequiredFieldValidator> -->
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <div class="controls">
-                                        <asp:TextBox ID="txtMensagem" runat="server" Width="280px" Height="69px" TextMode="MultiLine" CssClass="span12" placeholder="Mensagem" />
+                                        <!-- <asp:TextBox ID="txtMensagem" runat="server" Width="280px" Height="69px" TextMode="MultiLine" CssClass="span12" placeholder="Mensagem" />
 										<br/>
                                         <asp:RequiredFieldValidator ID="rfvMensagem" runat="server" ErrorMessage=" * preenchimento obrigatório"
                                                                     ControlToValidate="txtMensagem" Display="Dynamic" ForeColor="Red">
-                                        </asp:RequiredFieldValidator>
+                                        </asp:RequiredFieldValidator> -->
                                     </div>
                                 </div>
                                 <div class="control-group">
                                     <div class="controls">
-                                        <asp:Button ID="btnEnviar" runat="server" Text="Enviar mensagem" OnClick="btnEnviar_Click" CssClass="message-btn" />
+                                        <!-- <asp:Button ID="btnEnviar" runat="server" Text="Enviar mensagem" OnClick="btnEnviar_Click" CssClass="message-btn" /> -->
                                     </div>
                                 </div>
                                 <br/>
-                                <asp:Label ID="lblMensagemSucesso" Text="" runat="server" ForeColor="Blue" />
-                                <asp:Label ID="lblMensagemErro" Text="" runat="server" ForeColor="Red" />
+                                <!-- <asp:Label ID="lblMensagemSucesso" Text="" runat="server" ForeColor="Blue" />
+                                <asp:Label ID="lblMensagemErro" Text="" runat="server" ForeColor="Red" /> -->
                             </form>
-
                         </div>
                     </div>
                 </div>
@@ -493,8 +490,8 @@
         <!-- Contact section edn -->
         <!-- Footer section start -->
         <div class="footer">
-            <p>DM Sonorização &copy; 2017 | Desenvolvido por <a
-                    href="http://www.joaolutz.com" target="_blank">João Lutz</a></p>
+            <p>DM Sonorização &copy; 2022 | Desenvolvido por <a
+                    href="https://joaolutz.github.io" target="_blank">João Lutz</a></p>
         </div>
         <!-- Footer section end -->
         <!-- ScrollUp button start -->
