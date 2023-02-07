@@ -7,6 +7,10 @@ function enviarEmail() {
     
 }
 
+function clear() {
+    
+}
+
 function el(selector) {
     return document.querySelector(selector);
 }
